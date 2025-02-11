@@ -1,5 +1,5 @@
 {
-	"name": "BronzePipeline",
+	"name": "csv files CopyData",
 	"properties": {
 		"activities": [
 			{
