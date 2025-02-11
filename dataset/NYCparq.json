@@ -10,7 +10,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "green_tripdata_2024-01.parquet"
+				"relativeUrl": {
+					"value": "@concat('green_tripdata_2024-0{@item}','.parquet')",
+					"type": "Expression"
+				}
 			},
 			"compressionCodec": "snappy"
 		},
