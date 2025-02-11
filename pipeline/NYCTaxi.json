@@ -59,7 +59,13 @@
 							"inputs": [
 								{
 									"referenceName": "NYCparq",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"pmonth": {
+											"value": "@item()",
+											"type": "Expression"
+										}
+									}
 								}
 							],
 							"outputs": [
@@ -73,11 +79,6 @@
 				}
 			}
 		],
-		"parameters": {
-			"pmonth": {
-				"type": "string"
-			}
-		},
 		"annotations": []
 	}
 }
