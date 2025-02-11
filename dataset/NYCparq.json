@@ -1,0 +1,18 @@
+{
+	"name": "NYCparq",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "NYCTaxiLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
