@@ -1,12 +1,12 @@
 {
-	"name": "NYCparq",
+	"name": "Parqgreater9",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "NYCTaxiLS",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"pmonth": {
+			"p_month": {
 				"type": "string"
 			}
 		},
@@ -16,7 +16,7 @@
 			"location": {
 				"type": "HttpServerLocation",
 				"relativeUrl": {
-					"value": "green_tripdata_2024-0@{dataset().pmonth}.parquet",
+					"value": "green_tripdata_2024-@{dataset().p_month}.parquet",
 					"type": "Expression"
 				}
 			},
