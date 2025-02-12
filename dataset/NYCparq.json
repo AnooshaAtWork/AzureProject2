@@ -16,7 +16,7 @@
 			"location": {
 				"type": "HttpServerLocation",
 				"relativeUrl": {
-					"value": "green_tripdata_2024-0@{dataset().pmonth}.parquet",
+					"value": "green_tripdata_2023-0@{dataset().pmonth}.parquet",
 					"type": "Expression"
 				}
 			},
