@@ -48,13 +48,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "LookUp",
+						"referenceName": "sourceLookUp",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "DLLookup",
+						"referenceName": "sinkLookup",
 						"type": "DatasetReference"
 					}
 				]
@@ -105,13 +105,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "TripType",
+						"referenceName": "sourceTripType",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "DLTripType",
+						"referenceName": "sinkTripType",
 						"type": "DatasetReference"
 					}
 				]

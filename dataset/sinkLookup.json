@@ -1,5 +1,5 @@
 {
-	"name": "DLLookup",
+	"name": "sinkLookup",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "DataLake",

@@ -1,5 +1,5 @@
 {
-	"name": "LookUp",
+	"name": "sourceLookUp",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "githubfiles",

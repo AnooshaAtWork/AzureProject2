@@ -1,5 +1,5 @@
 {
-	"name": "NYCbronzeparq",
+	"name": "sinkNYC",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "DataLake",

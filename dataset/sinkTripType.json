@@ -1,5 +1,5 @@
 {
-	"name": "DLTripType",
+	"name": "sinkTripType",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "DataLake",
